@@ -16,3 +16,4 @@ set /p DEL_DEMO_FILES=Delete *.dem files [y/n]?:
 IF /I "%DEL_DEMO_FILES%"=="y" (
     del "%CSGO_INSTALL_FOLDER_FOLDER%\csgo\*.dem" /q
     del "%CSGO_INSTALL_FOLDER_FOLDER%\csgo\backup_round*.txt" /q
+)
